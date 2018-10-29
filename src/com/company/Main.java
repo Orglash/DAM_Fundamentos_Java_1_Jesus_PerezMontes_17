@@ -26,7 +26,6 @@ public class Main {
                 }
             }
         }
-        //Impresion en pantalla del resultado.
         if(fecha){
             System.out.println("La fecha introducida es correcta.");
             if(mes!=12&&dia!=30){
