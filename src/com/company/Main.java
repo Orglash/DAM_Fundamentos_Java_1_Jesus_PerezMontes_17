@@ -26,6 +26,7 @@ public class Main {
                 }
             }
         }
+        //Comprobamos si la fecha es final de mes/año e incrementamos las variables apropiadas y reseteamos el dia/mes. En caso de que no sea final de mes/año, se aumenta en uno el dia.
         if(fecha){
             System.out.println("La fecha introducida es correcta.");
             if(mes!=12&&dia!=30){
@@ -45,6 +46,7 @@ public class Main {
                 }
 
             }
+            //Imprimimos en pantalla el resultado
             System.out.printf("El dia siguiente al introducido es: %d/%d/%d", diafinal, mesfinal, añofinal);
         }else{
             System.out.println("La fecha introducida es incorrecta.");
