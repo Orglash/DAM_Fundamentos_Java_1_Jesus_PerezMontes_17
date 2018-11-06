@@ -34,11 +34,11 @@ public class Main {
                 if (mes == 12 && dia == 30) {
                     diafinal = 1;
                     mesfinal = 1;
-                    añofinal += 1;
+                    añofinal ++;
                 } else {
                     if (mes != 12 && dia == 30) {
                         diafinal = 1;
-                        mesfinal += 1;
+                        mesfinal ++;
                     } else {
                         diafinal = dia + 1;
                     }
